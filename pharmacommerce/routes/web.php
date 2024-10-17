@@ -20,7 +20,15 @@ Route::group(['middleware' => 'admin'], function() {
     Route::get('admin/customers', [CustomersController::class, 'customers']);
 
     Route::get('admin/customers/add', [CustomersController::class, 'add_customers']);
+
     Route::post('admin/customers/add', [CustomersController::class, 'insert_add_customers']);
+
+    Route::get('admin/customers/edit/{id}', [CustomersController::class, 'edit_customers']);
+
+    Route::post('admin/customers/edit/{id}', [CustomersController::class, 'update_customers']);
+
+    Route::get('admin/customers/delete/{id}', [CustomersController::class, 'delete_customers']);
+
 });
 
 Route::get('logout', [AuthController::class, 'logout']);

@@ -10,4 +10,13 @@ class CustomersModel extends Model
     use HasFactory;
 
     protected $table = 'customers';
+
+    static public function getAllRecord()
+    {
+        return self::get();
+    }
+
+    static public function getSingle($id){
+        return self::find($id);
+    }
 }
