@@ -13,6 +13,8 @@ class AuthController extends Controller
 {
     public function login(Request $request)
     {
+        // $password = Hash::make('123456');
+        // dd($password);
         return view('auth.login');
     }
 
