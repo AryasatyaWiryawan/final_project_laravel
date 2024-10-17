@@ -5,6 +5,10 @@
 | Lucky Santoso | 5025221050 | PBKK (D) |
 | Aryasatya Wiryawan | 5025221256 | PBKK (D) |
 
+## Youtube
+
+https://www.youtube.com/@aryasatyawiryawan6255
+
 ## Setup
 1. Git clone project :
 ```cmd
@@ -13,7 +17,7 @@ git clone https://github.com/AryasatyaWiryawan/final_project_laravel.git
 2. Navigate to project folder :
 
 ```cmd
-cd tugas-pbkk
+cd ./final_project_laravel/pharmacommerce
 ```
 3. Install Composer :
 ```cmd
